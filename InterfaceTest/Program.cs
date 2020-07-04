@@ -23,7 +23,7 @@ namespace InterfaceTest
             //...
             foreach(ISendable s in deliveryMethods)
             {
-                s.Send(msg);
+                s.Send(msg); 
             }
         }
     }
